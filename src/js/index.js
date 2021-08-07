@@ -1,5 +1,6 @@
-import array from '../menu.json';
-const Handlebars = require('handlebars');
-const menuItem = Handlebars.compile(
-  '{{id}} {{name}} {{description}} {{image}} {{price}} {{ingredients}}',
-);
+import arrayMenu from '../menu.json';
+import menuElTpl from '../templates/menu-item.hbs';
+const menuItem = document.querySelector('ul');
+
+const arrayItem = arrayMenu.map(menuElTpl).join('');
+menuItem.insertAdjacentHTML('beforeend', arrayItem);
