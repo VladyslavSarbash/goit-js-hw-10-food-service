@@ -96,4 +96,4 @@ var e=require("../dist/cjs/handlebars").default,r=require("../dist/cjs/handlebar
 },{"../dist/cjs/handlebars":"WNU3","../dist/cjs/handlebars/compiler/printer":"pkZH","fs":"rDCW"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=i(require("../menu.json"));function i(e){return e&&e.__esModule?e:{default:e}}const r=require("handlebars"),n=r.compile("{{id}} {{name}} {{description}} {{image}} {{price}} {{ingredients}}");
 },{"../menu.json":"mA8c","handlebars":"pEcb"}]},{},["QvaY"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/js.73a3d533.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/js.29d2790c.js.map
