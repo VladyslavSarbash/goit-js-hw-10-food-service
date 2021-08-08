@@ -9,6 +9,4 @@ const changeThemeInput = document.querySelector('.theme-switch__toggle');
 const arrayItem = arrayMenu.map(menuElTpl).join('');
 menuItem.insertAdjacentHTML('beforeend', arrayItem);
 
-localStorageTheme();
-
-changeThemeInput.addEventListener('click', addClassTheme);
+changeThemeInput.addEventListener('change', addClassTheme);

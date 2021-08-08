@@ -7,7 +7,7 @@ export default function localStorageTheme() {
     changeThemeInput.checked = true;
     bodyRef.classList.remove(LIGHT);
     bodyRef.classList.add(DARK);
-  } else {
-    changeThemeInput.checked = false;
   }
 }
+
+localStorageTheme();
