@@ -1,6 +1,6 @@
 import arrayMenu from '../menu.json';
 import menuElTpl from '../templates/menu-item.hbs';
-import addClassTheme from './cheangeTheme.js';
+import addClassTheme from './changeTheme.js';
 import localStorageTheme from './localStorageTheme';
 
 const menuItem = document.querySelector('ul');
